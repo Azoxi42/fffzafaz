@@ -5,7 +5,7 @@ prenoms = [
     "Lucas", "Emma", "Noah", "Léa", "Hugo", "Chloé", "Louis", "Inès", "Gabriel", "Jade",
     "Nathan", "Manon", "Ethan", "Lina", "Enzo", "Louna", "Mathis", "Mila", "Tom", "Sarah"
 ]
-suffixes = ["du75", "gamer", "pro", "lol", "xyz", "23", "off", "x", "dev", "yt", "pro2"]
+suffixes = ["du75", "gamer", "pro", "lol", "xyz", "23", "off", "x", "dev", "yt", "pro2", "pro3"]
 
 def generate_username():
     prenom = random.choice(prenoms)
