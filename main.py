@@ -3,7 +3,7 @@ import os
 title="""Golden-Multitools"""
 
 menu_items = {
-    "1": ("Emails generator", "emails.py"),
+    "1": ("Emails generator", "Emails.py"),
     "2": ("Exemple Script 2", "script2.py"),
     "3": ("Quitter", None)
 }
@@ -11,10 +11,10 @@ menu_items = {
 def afficher_menu():
     os.system("cls" if os.name == "nt" else "clear")
     print(title)
-    print("================================= MENU =================================")
+    print("")
     for key, (label, _) in menu_items.items():
         print(f"[{key}] {label}")
-    print("========================================================================")
+    print("")
 
 def main():
     while True:

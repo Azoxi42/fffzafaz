@@ -12,7 +12,7 @@ def generate_username():
     suffix = random.choice(suffixes)
     return f"{prenom.lower()}{suffix}"
 
-def generate_email_password_pairs(count, domain="example.com", password_length=10):
+def generate_email_password_pairs(count, domain="golden_multitools.com", password_length=10):
     pairs = []
     used_usernames = set()
 
