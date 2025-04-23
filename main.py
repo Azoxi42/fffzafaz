@@ -3,7 +3,7 @@ import os
 title="""Golden-Multitools"""
 
 menu_items = {
-    "1": ("Emails generator", "Emails.py"),
+    "1": ("Emails generator", "Mods/Emails.py"),
     "2": ("Ip", "IPschear.py"),
     "3": ("Quitter", None)
 }
