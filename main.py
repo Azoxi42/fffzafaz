@@ -4,7 +4,7 @@ title="""Golden-Multitools"""
 
 menu_items = {
     "1": ("Emails generator", "Emails.py"),
-    "2": ("Exemple Script 2", "script2.py"),
+    "2": ("Ip", "IPschear.py"),
     "3": ("Quitter", None)
 }
 

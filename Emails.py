@@ -35,7 +35,7 @@ def main():
 
     pairs = generate_email_password_pairs(nombre, domain, password_length)
     
-    with open("emails.txt", "w") as f:
+    with open("DB/emails.txt", "w") as f:
         for email, password in pairs:
             line = f"{email} : {password}\n"
             print(line.strip())
